@@ -1,0 +1,599 @@
+0000.000 (0) Opened log file at time: Tue, 19 Sep 2017 17:19:38 +0000 on http://localhost:8888
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.20 (apache2handler, Darwin ryans-mbp.gc.kw.com 16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.0.20 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22.8M | 16M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 36100.7 MB
+0000.009 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.011 (0) Semaphore (fd, wp_options) being initialised
+0000.021 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.026 (0) Set semaphore last lock (fd) time to 2017-09-19 17:19:38
+0000.027 (0) Semaphore lock (fd) complete
+0000.032 (0) Backup run: resumption=0, nonce=0d81e80c8f6e, begun at=1505841578 (0s ago), job type=backup
+0000.034 (0) Scheduling a resumption (1) after 300 seconds (1505841878) in case this run gets aborted
+0000.049 (0) Checking if we have a zip executable available
+0000.050 (0) Testing: /usr/bin/zip
+0000.060 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.062 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.063 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.064 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.065 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.072 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.073 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.087 (0) Working binary zip found: /usr/bin/zip
+0000.089 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.091 (0) Creation of backups of directories: beginning
+0000.099 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.279 (0) Total entities for the zip file: 331 directories, 2173 files (0 skipped as non-modified), 30.9 MB
+0000.285 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.291 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.298 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.304 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.311 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.312 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.1 MB, 2173 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.862 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: size is now: 3.70 MB
+0000.869 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 600 files added (on-disk size: 3789.6 KB)
+0000.874 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 700 files added (on-disk size: 3789.6 KB)
+0000.880 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 800 files added (on-disk size: 3789.6 KB)
+0000.885 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 900 files added (on-disk size: 3789.6 KB)
+0000.891 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 1000 files added (on-disk size: 3789.6 KB)
+0000.892 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10 MB, 2173 files batched, 501 (1002) added so far); re-opening (prior size: 3789.6 KB)
+0001.547 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: size is now: 6.60 MB
+0001.560 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 1100 files added (on-disk size: 6752.2 KB)
+0001.566 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 1200 files added (on-disk size: 6752.2 KB)
+0001.572 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 1300 files added (on-disk size: 6752.2 KB)
+0001.577 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 1400 files added (on-disk size: 6752.2 KB)
+0001.584 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 1500 files added (on-disk size: 6752.2 KB)
+0001.586 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 2173 files batched, 501 (1503) added so far); re-opening (prior size: 6752.2 KB)
+0001.880 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 1600 files added (on-disk size: 7544.6 KB)
+0001.886 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 1700 files added (on-disk size: 7544.6 KB)
+0001.892 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 1800 files added (on-disk size: 7544.6 KB)
+0001.898 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 1900 files added (on-disk size: 7544.6 KB)
+0001.904 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 2000 files added (on-disk size: 7544.6 KB)
+0001.905 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 MB, 2173 files batched, 501 (2004) added so far); re-opening (prior size: 7544.6 KB)
+0002.374 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: size is now: 9.60 MB
+0002.383 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip.tmp: 2100 files added (on-disk size: 9841.1 KB)
+0002.804 (0) Created plugins zip (0) - 10431.9 KB in 2.7 s (3860.2 KB/s) (sha1: 0ed1135e3f654322c528aea2d515774b435a5e7d, sha256: d6c4c35d2561a06ce39540dd413dd1a81908cdac3c84a4d59b192d2ca96daadd)
+0002.808 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.837 (0) Total entities for the zip file: 2470 directories, 15633 files (0 skipped as non-modified), 111.3 MB
+0003.843 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.848 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (31.8 MB, 15633 files batched, 181 (181) added so far); re-opening (prior size: 0 KB)
+0005.200 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: size is now: 30.20 MB
+0005.203 (0) A useful amount of data was added after this amount of zip processing: 3 s (normalised: 2.4 s, rate: 10834.8 KB/s)
+0005.206 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.00098490715, normalised_time=2.36276463399, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=66568797)
+0005.210 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 200 files added (on-disk size: 30924.7 KB)
+0005.216 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 300 files added (on-disk size: 30924.7 KB)
+0005.222 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 400 files added (on-disk size: 30924.7 KB)
+0005.227 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 500 files added (on-disk size: 30924.7 KB)
+0005.233 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 600 files added (on-disk size: 30924.7 KB)
+0005.237 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.9 MB, 15633 files batched, 501 (682) added so far); re-opening (prior size: 30924.7 KB)
+0005.786 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 700 files added (on-disk size: 33557.2 KB)
+0005.792 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 800 files added (on-disk size: 33557.2 KB)
+0005.797 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 900 files added (on-disk size: 33557.2 KB)
+0005.803 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 1000 files added (on-disk size: 33557.2 KB)
+0005.809 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 1100 files added (on-disk size: 33557.2 KB)
+0005.814 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 15633 files batched, 501 (1183) added so far); re-opening (prior size: 33557.2 KB)
+0006.227 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 1200 files added (on-disk size: 34552.9 KB)
+0006.234 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 1300 files added (on-disk size: 34552.9 KB)
+0006.240 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 1400 files added (on-disk size: 34552.9 KB)
+0006.246 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 1500 files added (on-disk size: 34552.9 KB)
+0006.251 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 1600 files added (on-disk size: 34552.9 KB)
+0006.256 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.5 MB, 15633 files batched, 501 (1684) added so far); re-opening (prior size: 34552.9 KB)
+0006.861 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 1700 files added (on-disk size: 36472.4 KB)
+0006.867 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 1800 files added (on-disk size: 36472.4 KB)
+0006.874 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 1900 files added (on-disk size: 36472.4 KB)
+0006.882 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 2000 files added (on-disk size: 36472.4 KB)
+0006.888 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 2100 files added (on-disk size: 36472.4 KB)
+0006.893 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.1 MB, 15633 files batched, 501 (2185) added so far); re-opening (prior size: 36472.4 KB)
+0007.356 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 2200 files added (on-disk size: 37573.3 KB)
+0007.362 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 2300 files added (on-disk size: 37573.3 KB)
+0007.367 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 2400 files added (on-disk size: 37573.3 KB)
+0007.372 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 2500 files added (on-disk size: 37573.3 KB)
+0007.378 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 2600 files added (on-disk size: 37573.3 KB)
+0007.384 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 15633 files batched, 501 (2686) added so far); re-opening (prior size: 37573.3 KB)
+0007.782 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 2700 files added (on-disk size: 38261.9 KB)
+0007.787 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 2800 files added (on-disk size: 38261.9 KB)
+0007.793 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 2900 files added (on-disk size: 38261.9 KB)
+0007.798 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 3000 files added (on-disk size: 38261.9 KB)
+0007.803 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 3100 files added (on-disk size: 38261.9 KB)
+0007.808 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 MB, 15633 files batched, 501 (3187) added so far); re-opening (prior size: 38261.9 KB)
+0008.126 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 3200 files added (on-disk size: 38872.6 KB)
+0008.131 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 3300 files added (on-disk size: 38872.6 KB)
+0008.137 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 3400 files added (on-disk size: 38872.6 KB)
+0008.143 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 3500 files added (on-disk size: 38872.6 KB)
+0008.148 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 3600 files added (on-disk size: 38872.6 KB)
+0008.153 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 MB, 15633 files batched, 501 (3688) added so far); re-opening (prior size: 38872.6 KB)
+0008.499 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 3700 files added (on-disk size: 39430.1 KB)
+0008.505 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 3800 files added (on-disk size: 39430.1 KB)
+0008.510 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 3900 files added (on-disk size: 39430.1 KB)
+0008.517 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 4000 files added (on-disk size: 39430.1 KB)
+0008.525 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 4100 files added (on-disk size: 39430.1 KB)
+0008.531 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.4 MB, 15633 files batched, 501 (4189) added so far); re-opening (prior size: 39430.1 KB)
+0008.832 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 4200 files added (on-disk size: 39683.7 KB)
+0008.838 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 4300 files added (on-disk size: 39683.7 KB)
+0008.845 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 4400 files added (on-disk size: 39683.7 KB)
+0008.850 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 4500 files added (on-disk size: 39683.7 KB)
+0008.856 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 4600 files added (on-disk size: 39683.7 KB)
+0008.862 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.9 MB, 15633 files batched, 501 (4690) added so far); re-opening (prior size: 39683.7 KB)
+0009.203 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 4700 files added (on-disk size: 40149.8 KB)
+0009.210 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 4800 files added (on-disk size: 40149.8 KB)
+0009.216 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 4900 files added (on-disk size: 40149.8 KB)
+0009.222 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 5000 files added (on-disk size: 40149.8 KB)
+0009.228 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 5100 files added (on-disk size: 40149.8 KB)
+0009.234 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.9 MB, 15633 files batched, 501 (5191) added so far); re-opening (prior size: 40149.8 KB)
+0009.777 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 5200 files added (on-disk size: 42043 KB)
+0009.782 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 5300 files added (on-disk size: 42043 KB)
+0009.788 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 5400 files added (on-disk size: 42043 KB)
+0009.793 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 5500 files added (on-disk size: 42043 KB)
+0009.799 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 5600 files added (on-disk size: 42043 KB)
+0009.806 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 MB, 15633 files batched, 501 (5692) added so far); re-opening (prior size: 42043 KB)
+0010.170 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 5700 files added (on-disk size: 42870 KB)
+0010.176 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 5800 files added (on-disk size: 42870 KB)
+0010.183 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 5900 files added (on-disk size: 42870 KB)
+0010.190 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 6000 files added (on-disk size: 42870 KB)
+0010.196 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 6100 files added (on-disk size: 42870 KB)
+0010.201 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 15633 files batched, 501 (6193) added so far); re-opening (prior size: 42870 KB)
+0010.626 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 6200 files added (on-disk size: 43827.4 KB)
+0010.631 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 6300 files added (on-disk size: 43827.4 KB)
+0010.637 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 6400 files added (on-disk size: 43827.4 KB)
+0010.643 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 6500 files added (on-disk size: 43827.4 KB)
+0010.648 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 6600 files added (on-disk size: 43827.4 KB)
+0010.654 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 15633 files batched, 501 (6694) added so far); re-opening (prior size: 43827.4 KB)
+0011.363 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 6700 files added (on-disk size: 44484.7 KB)
+0011.370 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 6800 files added (on-disk size: 44484.7 KB)
+0011.377 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 6900 files added (on-disk size: 44484.7 KB)
+0011.384 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 7000 files added (on-disk size: 44484.7 KB)
+0011.389 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 7100 files added (on-disk size: 44484.7 KB)
+0011.395 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.5 MB, 15633 files batched, 501 (7195) added so far); re-opening (prior size: 44484.7 KB)
+0011.705 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 7200 files added (on-disk size: 44814.4 KB)
+0011.712 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 7300 files added (on-disk size: 44814.4 KB)
+0011.718 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 7400 files added (on-disk size: 44814.4 KB)
+0011.725 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 7500 files added (on-disk size: 44814.4 KB)
+0011.731 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 7600 files added (on-disk size: 44814.4 KB)
+0011.737 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.8 MB, 15633 files batched, 501 (7696) added so far); re-opening (prior size: 44814.4 KB)
+0012.094 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 7700 files added (on-disk size: 45187.7 KB)
+0012.100 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 7800 files added (on-disk size: 45187.7 KB)
+0012.105 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 7900 files added (on-disk size: 45187.7 KB)
+0012.111 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 8000 files added (on-disk size: 45187.7 KB)
+0012.118 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 8100 files added (on-disk size: 45187.7 KB)
+0012.123 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 15633 files batched, 501 (8197) added so far); re-opening (prior size: 45187.7 KB)
+0012.507 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 8200 files added (on-disk size: 45896.4 KB)
+0012.512 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 8300 files added (on-disk size: 45896.4 KB)
+0012.518 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 8400 files added (on-disk size: 45896.4 KB)
+0012.523 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 8500 files added (on-disk size: 45896.4 KB)
+0012.529 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 8600 files added (on-disk size: 45896.4 KB)
+0012.535 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 15633 files batched, 501 (8698) added so far); re-opening (prior size: 45896.4 KB)
+0013.077 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 8700 files added (on-disk size: 46894.5 KB)
+0013.083 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 8800 files added (on-disk size: 46894.5 KB)
+0013.088 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 8900 files added (on-disk size: 46894.5 KB)
+0013.094 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 9000 files added (on-disk size: 46894.5 KB)
+0013.100 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 9100 files added (on-disk size: 46894.5 KB)
+0013.106 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 MB, 15633 files batched, 501 (9199) added so far); re-opening (prior size: 46894.5 KB)
+0013.489 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 9200 files added (on-disk size: 47396.7 KB)
+0013.494 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 9300 files added (on-disk size: 47396.7 KB)
+0013.500 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 9400 files added (on-disk size: 47396.7 KB)
+0013.506 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 9500 files added (on-disk size: 47396.7 KB)
+0013.512 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 9600 files added (on-disk size: 47396.7 KB)
+0013.518 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 15633 files batched, 501 (9700) added so far); re-opening (prior size: 47396.7 KB)
+0013.964 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 9700 files added (on-disk size: 48313 KB)
+0013.970 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 9800 files added (on-disk size: 48313 KB)
+0013.976 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 9900 files added (on-disk size: 48313 KB)
+0013.981 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 10000 files added (on-disk size: 48313 KB)
+0013.988 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 10100 files added (on-disk size: 48313 KB)
+0013.993 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 10200 files added (on-disk size: 48313 KB)
+0013.994 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.5 MB, 15633 files batched, 501 (10201) added so far); re-opening (prior size: 48313 KB)
+0014.377 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 10300 files added (on-disk size: 48660.8 KB)
+0014.383 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 10400 files added (on-disk size: 48660.8 KB)
+0014.391 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 10500 files added (on-disk size: 48660.8 KB)
+0014.398 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 10600 files added (on-disk size: 48660.8 KB)
+0014.405 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 10700 files added (on-disk size: 48660.8 KB)
+0014.407 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.8 MB, 15633 files batched, 501 (10702) added so far); re-opening (prior size: 48660.8 KB)
+0014.791 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 10800 files added (on-disk size: 49022.3 KB)
+0014.796 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 10900 files added (on-disk size: 49022.3 KB)
+0014.802 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 11000 files added (on-disk size: 49022.3 KB)
+0014.810 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 11100 files added (on-disk size: 49022.3 KB)
+0014.817 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 11200 files added (on-disk size: 49022.3 KB)
+0014.818 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 15633 files batched, 501 (11203) added so far); re-opening (prior size: 49022.3 KB)
+0015.390 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 11300 files added (on-disk size: 50452 KB)
+0015.396 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 11400 files added (on-disk size: 50452 KB)
+0015.401 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 11500 files added (on-disk size: 50452 KB)
+0015.407 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 11600 files added (on-disk size: 50452 KB)
+0015.413 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 11700 files added (on-disk size: 50452 KB)
+0015.414 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 15633 files batched, 501 (11704) added so far); re-opening (prior size: 50452 KB)
+0015.910 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 11800 files added (on-disk size: 51574.5 KB)
+0015.915 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 11900 files added (on-disk size: 51574.5 KB)
+0015.920 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 12000 files added (on-disk size: 51574.5 KB)
+0015.925 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 12100 files added (on-disk size: 51574.5 KB)
+0015.931 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 12200 files added (on-disk size: 51574.5 KB)
+0015.932 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.1 MB, 15633 files batched, 501 (12205) added so far); re-opening (prior size: 51574.5 KB)
+0016.538 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 12300 files added (on-disk size: 53023.7 KB)
+0016.545 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 12400 files added (on-disk size: 53023.7 KB)
+0016.555 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 12500 files added (on-disk size: 53023.7 KB)
+0016.561 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 12600 files added (on-disk size: 53023.7 KB)
+0016.567 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 12700 files added (on-disk size: 53023.7 KB)
+0016.569 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 15633 files batched, 501 (12706) added so far); re-opening (prior size: 53023.7 KB)
+0016.987 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 12800 files added (on-disk size: 53544 KB)
+0016.994 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 12900 files added (on-disk size: 53544 KB)
+0016.999 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 13000 files added (on-disk size: 53544 KB)
+0017.004 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 13100 files added (on-disk size: 53544 KB)
+0017.010 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 13200 files added (on-disk size: 53544 KB)
+0017.011 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.3 MB, 15633 files batched, 501 (13207) added so far); re-opening (prior size: 53544 KB)
+0017.383 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 13300 files added (on-disk size: 53806 KB)
+0017.389 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 13400 files added (on-disk size: 53806 KB)
+0017.396 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 13500 files added (on-disk size: 53806 KB)
+0017.403 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 13600 files added (on-disk size: 53806 KB)
+0017.408 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 13700 files added (on-disk size: 53806 KB)
+0017.409 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 15633 files batched, 501 (13708) added so far); re-opening (prior size: 53806 KB)
+0017.839 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 13800 files added (on-disk size: 54468.5 KB)
+0017.845 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 13900 files added (on-disk size: 54468.5 KB)
+0017.851 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 14000 files added (on-disk size: 54468.5 KB)
+0017.856 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 14100 files added (on-disk size: 54468.5 KB)
+0017.861 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 14200 files added (on-disk size: 54468.5 KB)
+0017.863 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 15633 files batched, 501 (14209) added so far); re-opening (prior size: 54468.5 KB)
+0018.321 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 14300 files added (on-disk size: 55319.9 KB)
+0018.327 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 14400 files added (on-disk size: 55319.9 KB)
+0018.333 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 14500 files added (on-disk size: 55319.9 KB)
+0018.338 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 14600 files added (on-disk size: 55319.9 KB)
+0018.344 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 14700 files added (on-disk size: 55319.9 KB)
+0018.346 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.2 MB, 15633 files batched, 501 (14710) added so far); re-opening (prior size: 55319.9 KB)
+0018.816 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 14800 files added (on-disk size: 56099.4 KB)
+0018.821 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 14900 files added (on-disk size: 56099.4 KB)
+0018.827 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 15000 files added (on-disk size: 56099.4 KB)
+0018.833 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 15100 files added (on-disk size: 56099.4 KB)
+0018.839 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 15200 files added (on-disk size: 56099.4 KB)
+0018.842 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 15633 files batched, 501 (15211) added so far); re-opening (prior size: 56099.4 KB)
+0019.664 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 15300 files added (on-disk size: 58804.4 KB)
+0019.669 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 15400 files added (on-disk size: 58804.4 KB)
+0019.675 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 15500 files added (on-disk size: 58804.4 KB)
+0019.680 (0) Zip: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip.tmp: 15600 files added (on-disk size: 58804.4 KB)
+0021.644 (0) Created themes zip (0) - 59942.9 KB in 18.8 s (3182.7 KB/s) (sha1: 4ea03ada1832f0b16527fd358da90eee602b2ff3, sha256: 9060a259d7edd1b0eef8cf9b8601475740e920f4e5b47b8aa977fa2fc4ccb932)
+0021.648 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0021.649 (0) Looking for candidates to back up in: /Users/ryan-judy/Documents/website/ytr/wp-content/uploads
+0021.650 (0) finding files: 2017: adding to list (1)
+0021.651 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0021.657 (0) Total entities for the zip file: 3 directories, 15 files (0 skipped as non-modified), 2.9 MB
+0021.707 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-uploads.zip.tmp: size is now: 2.90 MB
+0021.792 (0) Created uploads zip (0) - 2993.1 KB in 0.1 s (21479.3 KB/s) (sha1: 779d8c1c9afe1f8ea82bd286c049ae964d0055fb, sha256: efa659e0a87ea240f324742bd9f41fe45d2d387bdebdd4eb1b0ed223afa13cd6)
+0021.797 (0) Beginning backup of other directories found in the content directory (index: 0)
+0021.798 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0021.800 (0) Looking for candidates to back up in: /Users/ryan-judy/Documents/website/ytr/wp-content
+0021.801 (0) finding files: .DS_Store: adding to list (1)
+0021.802 (0) finding files: index.php: adding to list (2)
+0021.803 (0) finding files: plugins: skipping: this is the plugins directory
+0021.804 (0) finding files: themes: skipping: this is the themes directory
+0021.805 (0) finding files: updraft: skipping: this is the updraft directory
+0021.806 (0) finding files: upgrade: skipping: excluded by options
+0021.808 (0) finding files: uploads: skipping: this is the uploads directory
+0021.812 (0) Total entities for the zip file: 0 directories, 2 files (0 skipped as non-modified), 0 MB
+0021.821 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-others.zip.tmp: size is now: 0.00 MB
+0021.829 (0) Created others zip (0) - 1.6 KB in 0 s (86.5 KB/s) (sha1: 8e2b12ab5f74878538763263286aa8741fba923f, sha256: e288c60e9253e59923bedcba623859bd54a2f501205e110dd65746bc1b960a3c)
+0021.835 (0) Saving backup status to database (elements: 8)
+0021.838 (0) Beginning creation of database dump (WordPress DB)
+0021.844 (0) Testing: /usr/local/bin/mysqldump
+0021.882 (0) Binary mysqldump: error (code: 2)
+0021.896 (0) Table wp_options: Total expected rows (approximate): 1117
+0021.949 (0) Table wp_options: Total rows added: 190 in 0.05 seconds
+0021.953 (0) Table wp_options: finishing file (backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_options.table.gz - 139.4 KB)
+0021.960 (0) Table wp_users: Total expected rows (approximate): 1
+0021.964 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0021.965 (0) Table wp_users: finishing file (backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_users.table.gz - 0.6 KB)
+0021.971 (0) Table wp_usermeta: Total expected rows (approximate): 21
+0021.975 (0) Table wp_usermeta: Total rows added: 21 in 0.00 seconds
+0021.976 (0) Table wp_usermeta: finishing file (backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_usermeta.table.gz - 2 KB)
+0021.982 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0021.985 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0021.986 (0) Table wp_commentmeta: finishing file (backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0021.991 (0) Table wp_comments: Total expected rows (approximate): 1
+0021.995 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0021.996 (0) Table wp_comments: finishing file (backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_comments.table.gz - 0.7 KB)
+0022.003 (0) Table wp_links: Total expected rows (approximate): 0
+0022.006 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0022.007 (0) Table wp_links: finishing file (backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_links.table.gz - 0.4 KB)
+0022.013 (0) Table wp_postmeta: Total expected rows (approximate): 3
+0022.016 (0) Table wp_postmeta: Total rows added: 3 in 0.00 seconds
+0022.017 (0) Table wp_postmeta: finishing file (backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_postmeta.table.gz - 0.4 KB)
+0022.022 (0) Table wp_posts: Total expected rows (approximate): 4
+0022.026 (0) Table wp_posts: Total rows added: 4 in 0.00 seconds
+0022.027 (0) Table wp_posts: finishing file (backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_posts.table.gz - 1.4 KB)
+0022.033 (0) Table wp_term_relationships: Total expected rows (approximate): 1
+0022.036 (0) Table wp_term_relationships: Total rows added: 1 in 0.00 seconds
+0022.037 (0) Table wp_term_relationships: finishing file (backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0022.042 (0) Table wp_term_taxonomy: Total expected rows (approximate): 1
+0022.045 (0) Table wp_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0022.046 (0) Table wp_term_taxonomy: finishing file (backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0022.051 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0022.054 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0022.055 (0) Table wp_termmeta: finishing file (backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_termmeta.table.gz - 0.4 KB)
+0022.060 (0) Table wp_terms: Total expected rows (approximate): 1
+0022.063 (0) Table wp_terms: Total rows added: 1 in 0.00 seconds
+0022.065 (0) Table wp_terms: finishing file (backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_terms.table.gz - 0.4 KB)
+0022.071 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 0
+0022.074 (0) Table wp_yoast_seo_links: Total rows added: 0 in 0.00 seconds
+0022.075 (0) Table wp_yoast_seo_links: finishing file (backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_yoast_seo_links.table.gz - 0.4 KB)
+0022.080 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 0
+0022.083 (0) Table wp_yoast_seo_meta: Total rows added: 0 in 0.00 seconds
+0022.084 (0) Table wp_yoast_seo_meta: finishing file (backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_yoast_seo_meta.table.gz - 0.3 KB)
+0022.090 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_options.table.gz (1/14): adding to final database dump
+0022.135 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_users.table.gz (2/14): adding to final database dump
+0022.137 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_usermeta.table.gz (3/14): adding to final database dump
+0022.139 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_commentmeta.table.gz (4/14): adding to final database dump
+0022.140 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_comments.table.gz (5/14): adding to final database dump
+0022.142 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_links.table.gz (6/14): adding to final database dump
+0022.143 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_postmeta.table.gz (7/14): adding to final database dump
+0022.144 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_posts.table.gz (8/14): adding to final database dump
+0022.146 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_term_relationships.table.gz (9/14): adding to final database dump
+0022.147 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_term_taxonomy.table.gz (10/14): adding to final database dump
+0022.148 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_termmeta.table.gz (11/14): adding to final database dump
+0022.149 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_terms.table.gz (12/14): adding to final database dump
+0022.150 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_yoast_seo_links.table.gz (13/14): adding to final database dump
+0022.151 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db-table-wp_yoast_seo_meta.table.gz (14/14): adding to final database dump
+0022.153 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db.gz: finished writing out complete database file (136 KB)
+0022.163 (0) Total database tables backed up: 14 (backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db.gz, size: 147346, sha256)
+0022.170 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0022.171 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0022.171 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0022.172 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-others.zip: others: This file has not yet been successfully uploaded: will queue
+0022.173 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0022.174 (0) Saving backup history. Total backup size: 71.8 MB
+0022.177 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0022.181 (0) Cloud backup selection (1/1): googledrive (last)
+0022.182 (0) Beginning dispatch of backup to remote (googledrive)
+0023.292 (0) Google Drive: creating path: /UpdraftPlus
+0024.833 (0) Google Drive quota usage: used=14520.4 MB, total=30720 MB, available=16199.6 MB
+0024.841 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip: Attempting to upload to Google Drive (into folder id: 0BxdXhwppXkZDWDRqWHM3MGhKUXM)
+0027.295 (0) Googledrive chunked upload: 9.8 % uploaded (1048576)
+0029.340 (0) Googledrive chunked upload: 19.6 % uploaded (2097152)
+0031.290 (0) Googledrive chunked upload: 29.4 % uploaded (3145728)
+0033.243 (0) Googledrive chunked upload: 39.3 % uploaded (4194304)
+0035.165 (0) Googledrive chunked upload: 49.1 % uploaded (5242880)
+0037.535 (0) Googledrive chunked upload: 58.9 % uploaded (6291456)
+0039.673 (0) Googledrive chunked upload: 68.7 % uploaded (7340032)
+0041.874 (0) Googledrive chunked upload: 78.5 % uploaded (8388608)
+0044.710 (0) Googledrive chunked upload: 88.3 % uploaded (9437184)
+0046.549 (0) Googledrive chunked upload: 98.2 % uploaded (10485760)
+0048.755 (0) Googledrive chunked upload: 100 % uploaded (10485760)
+0048.762 (0) OK: Archive backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip uploaded to Google Drive in 23.92 seconds
+0048.766 (0) Recording as successfully uploaded: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip (429064786e65f4e989090f44872245ae)
+0048.775 (0) Deleting local file: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip: OK
+0049.182 (0) Google Drive quota usage: used=14530.6 MB, total=30720 MB, available=16189.4 MB
+0049.190 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip: Attempting to upload to Google Drive (into folder id: 0BxdXhwppXkZDWDRqWHM3MGhKUXM)
+0055.559 (0) ERROR: Google Drive upload error: Failed to start the resumable upload (HTTP 500) (line: 321, file: /Users/ryan-judy/Documents/website/ytr/wp-content/plugins/updraftplus/includes/google-extensions.php)
+0055.561 (0) An error condition has occurred for the first time during this job
+0056.032 (0) Google Drive quota usage: used=14530.6 MB, total=30720 MB, available=16189.4 MB
+0056.034 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-uploads.zip: Attempting to upload to Google Drive (into folder id: 0BxdXhwppXkZDWDRqWHM3MGhKUXM)
+0058.325 (0) Googledrive chunked upload: 34.2 % uploaded (1048576)
+0060.271 (0) Googledrive chunked upload: 68.4 % uploaded (2097152)
+0063.140 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+0063.147 (0) OK: Archive backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-uploads.zip uploaded to Google Drive in 7.11 seconds
+0063.152 (0) Recording as successfully uploaded: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-uploads.zip (8c9184293df4c8780218b0f3a401e06e)
+0063.158 (0) Deleting local file: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-uploads.zip: OK
+0063.461 (0) Google Drive quota usage: used=14533.5 MB, total=30720 MB, available=16186.5 MB
+0063.463 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-others.zip: Attempting to upload to Google Drive (into folder id: 0BxdXhwppXkZDWDRqWHM3MGhKUXM)
+0065.389 (0) Googledrive chunked upload: 100 % uploaded
+0065.395 (0) OK: Archive backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-others.zip uploaded to Google Drive in 1.93 seconds
+0065.398 (0) Recording as successfully uploaded: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-others.zip (39aea91225223cd04dceb20d65cc2b40)
+0065.403 (0) Deleting local file: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-others.zip: OK
+0066.102 (0) Google Drive quota usage: used=14533.5 MB, total=30720 MB, available=16186.5 MB
+0066.104 (0) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db.gz: Attempting to upload to Google Drive (into folder id: 0BxdXhwppXkZDWDRqWHM3MGhKUXM)
+0068.059 (0) Googledrive chunked upload: 100 % uploaded
+0068.065 (0) OK: Archive backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db.gz uploaded to Google Drive in 1.96 seconds
+0068.069 (0) Recording as successfully uploaded: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db.gz (d7e43096993177036d329329fc75a842)
+0068.076 (0) Deleting local file: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db.gz: OK
+0068.080 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0068.082 (0) Number of backup sets in history: 1; groups (db): 1
+0068.083 (0) Examining (for databases) backup set with group_id=0, nonce=0d81e80c8f6e, datestamp=1505841578 (Sep 19 2017 17:19:38)
+0068.084 (0) This backup set is the backup set just made, so will not be deleted.
+0068.084 (0) Number of backup sets in history: 1; groups (files): 1
+0068.085 (0) Examining (for files) backup set with nonce=0d81e80c8f6e, datestamp=1505841578 (Sep 19 2017 17:19:38)
+0068.085 (0) This backup set is the backup set just made, so will not be deleted.
+0068.086 (0) This backup set is the backup set just made, so will not be deleted.
+0068.086 (0) This backup set is the backup set just made, so will not be deleted.
+0068.086 (0) This backup set is the backup set just made, so will not be deleted.
+0068.087 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0068.088 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0068.091 (0) Resume backup (0d81e80c8f6e, 0): finish run
+0068.093 (0) Decremented the semaphore (fd) by 1
+0068.095 (0) Semaphore (fd) unlocked
+0068.095 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0068.099 (0) Rescheduling resumption 1: moving to 120 seconds from now (1505841766)
+0068.101 (0) No email will/can be sent - the user has not configured an email address.
+0068.102 (0) The backup has not finished; a resumption is scheduled
+0191.467 (1) Opened log file at time: Tue, 19 Sep 2017 17:22:50 +0000 on http://localhost:8888
+0191.467 (1) Opened log file at time: Tue, 19 Sep 2017 17:22:50 +0000 on http://localhost:8888
+0191.468 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.20 (apache2handler, Darwin ryans-mbp.gc.kw.com 16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.0.20 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.4M | 2M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0191.468 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.20 (apache2handler, Darwin ryans-mbp.gc.kw.com 16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.0.20 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.4M | 8M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0191.469 (1) Free space on disk containing Updraft's temporary directory: 36041.3 MB
+0191.470 (1) Free space on disk containing Updraft's temporary directory: 36041.3 MB
+0191.472 (1) Backup run: resumption=1, nonce=0d81e80c8f6e, begun at=1505841578 (192s ago), job type=backup, previous check-in=68.1s
+0191.473 (1) Backup run: resumption=1, nonce=0d81e80c8f6e, begun at=1505841578 (192s ago), job type=backup, previous check-in=68.1s
+0191.476 (1) Scheduling a resumption (2) after 300 seconds (1505842070) in case this run gets aborted
+0191.476 (1) Scheduling a resumption (2) after 300 seconds (1505842070) in case this run gets aborted
+0191.489 (1) Checking if we have a zip executable available
+0191.489 (1) Checking if we have a zip executable available
+0191.491 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0191.491 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0191.492 (1) Creation of backups of directories: already finished
+0191.492 (1) Creation of backups of directories: already finished
+0191.492 (1) Saving backup status to database (elements: 8)
+0191.492 (1) Saving backup status to database (elements: 8)
+0191.501 (1) Database dump (WordPress DB): Creation was completed already
+0191.501 (1) Database dump (WordPress DB): Creation was completed already
+0191.505 (1) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip: plugins: This file has already been successfully uploaded
+0191.505 (1) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-plugins.zip: plugins: This file has already been successfully uploaded
+0191.506 (1) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0191.506 (1) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0191.507 (1) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-uploads.zip: uploads: This file has already been successfully uploaded
+0191.507 (1) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-uploads.zip: uploads: This file has already been successfully uploaded
+0191.508 (1) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-others.zip: others: This file has already been successfully uploaded
+0191.508 (1) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-others.zip: others: This file has already been successfully uploaded
+0191.509 (1) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db.gz: db: This file has already been successfully uploaded
+0191.509 (1) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-db.gz: db: This file has already been successfully uploaded
+0191.510 (1) Saving backup history. Total backup size: Unknown
+0191.510 (1) Saving backup history. Total backup size: Unknown
+0191.513 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+0191.513 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+0191.516 (1) Cloud backup selection (1/1): googledrive (last)
+0191.516 (1) Cloud backup selection (1/1): googledrive (last)
+0191.516 (1) Beginning dispatch of backup to remote (googledrive)
+0191.517 (1) Beginning dispatch of backup to remote (googledrive)
+0192.917 (1) Google Drive quota usage: used=14533.6 MB, total=30720 MB, available=16186.4 MB
+0192.920 (1) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip: Attempting to upload to Google Drive (into folder id: 0BxdXhwppXkZDWDRqWHM3MGhKUXM)
+0194.500 (1) Google Drive quota usage: used=14533.6 MB, total=30720 MB, available=16186.4 MB
+0194.502 (1) backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip: Attempting to upload to Google Drive (into folder id: 0BxdXhwppXkZDWDRqWHM3MGhKUXM)
+0195.453 (1) Googledrive chunked upload: 1.7 % uploaded (1048576)
+0198.062 (1) Googledrive chunked upload: 1.7 % uploaded (1048576)
+0198.418 (1) Googledrive chunked upload: 3.4 % uploaded (2097152)
+0201.141 (1) Googledrive chunked upload: 3.4 % uploaded (2097152)
+0202.556 (1) Googledrive chunked upload: 5.1 % uploaded (3145728)
+0204.007 (1) Googledrive chunked upload: 5.1 % uploaded (3145728)
+0206.510 (1) Googledrive chunked upload: 6.8 % uploaded (4194304)
+0206.782 (1) Googledrive chunked upload: 6.8 % uploaded (4194304)
+0209.653 (1) Googledrive chunked upload: 8.5 % uploaded (5242880)
+0210.083 (1) Googledrive chunked upload: 8.5 % uploaded (5242880)
+0213.138 (1) Googledrive chunked upload: 10.2 % uploaded (6291456)
+0213.145 (1) Googledrive chunked upload: 10.2 % uploaded (6291456)
+0215.954 (1) Googledrive chunked upload: 12 % uploaded (7340032)
+0216.786 (1) Googledrive chunked upload: 12 % uploaded (7340032)
+0219.819 (1) Googledrive chunked upload: 13.7 % uploaded (8388608)
+0219.831 (1) Googledrive chunked upload: 13.7 % uploaded (8388608)
+0223.295 (1) Googledrive chunked upload: 15.4 % uploaded (9437184)
+0223.296 (1) Googledrive chunked upload: 15.4 % uploaded (9437184)
+0228.217 (1) Googledrive chunked upload: 17.1 % uploaded (10485760)
+0228.217 (1) Googledrive chunked upload: 17.1 % uploaded (10485760)
+0231.904 (1) Googledrive chunked upload: 18.8 % uploaded (11534336)
+0231.904 (1) Googledrive chunked upload: 18.8 % uploaded (11534336)
+0235.072 (1) Googledrive chunked upload: 20.5 % uploaded (12582912)
+0235.372 (1) Googledrive chunked upload: 20.5 % uploaded (12582912)
+0238.059 (1) Googledrive chunked upload: 22.2 % uploaded (13631488)
+0238.755 (1) Googledrive chunked upload: 22.2 % uploaded (13631488)
+0241.627 (1) Googledrive chunked upload: 23.9 % uploaded (14680064)
+0241.628 (1) Googledrive chunked upload: 23.9 % uploaded (14680064)
+0245.009 (1) Googledrive chunked upload: 25.6 % uploaded (15728640)
+0245.009 (1) Googledrive chunked upload: 25.6 % uploaded (15728640)
+0247.698 (1) Googledrive chunked upload: 27.3 % uploaded (16777216)
+0248.991 (1) Googledrive chunked upload: 27.3 % uploaded (16777216)
+0250.757 (1) Googledrive chunked upload: 29 % uploaded (17825792)
+0251.854 (1) Googledrive chunked upload: 29 % uploaded (17825792)
+0254.635 (1) Googledrive chunked upload: 30.7 % uploaded (18874368)
+0255.024 (1) Googledrive chunked upload: 30.7 % uploaded (18874368)
+0259.860 (1) Googledrive chunked upload: 32.5 % uploaded (19922944)
+0263.121 (1) Googledrive chunked upload: 32.5 % uploaded (19922944)
+0268.177 (1) Googledrive chunked upload: 34.2 % uploaded (20971520)
+0271.124 (1) Googledrive chunked upload: 34.2 % uploaded (20971520)
+0271.268 (1) Googledrive chunked upload: 35.9 % uploaded (22020096)
+0273.891 (1) Googledrive chunked upload: 35.9 % uploaded (22020096)
+0274.556 (1) Googledrive chunked upload: 37.6 % uploaded (23068672)
+0276.969 (1) Googledrive chunked upload: 37.6 % uploaded (23068672)
+0278.160 (1) Googledrive chunked upload: 39.3 % uploaded (24117248)
+0280.436 (1) Googledrive chunked upload: 39.3 % uploaded (24117248)
+0281.256 (1) Googledrive chunked upload: 41 % uploaded (25165824)
+0283.691 (1) Googledrive chunked upload: 41 % uploaded (25165824)
+0284.252 (1) Googledrive chunked upload: 42.7 % uploaded (26214400)
+0286.619 (1) Googledrive chunked upload: 42.7 % uploaded (26214400)
+0287.481 (1) Googledrive chunked upload: 44.4 % uploaded (27262976)
+0289.848 (1) Googledrive chunked upload: 44.4 % uploaded (27262976)
+0290.860 (1) Googledrive chunked upload: 46.1 % uploaded (28311552)
+0293.332 (1) Googledrive chunked upload: 46.1 % uploaded (28311552)
+0293.951 (1) Googledrive chunked upload: 47.8 % uploaded (29360128)
+0296.996 (1) Googledrive chunked upload: 47.8 % uploaded (29360128)
+0297.667 (1) Googledrive chunked upload: 49.5 % uploaded (30408704)
+0299.877 (1) Googledrive chunked upload: 49.5 % uploaded (30408704)
+0301.101 (1) Googledrive chunked upload: 51.2 % uploaded (31457280)
+0303.831 (1) Googledrive chunked upload: 51.2 % uploaded (31457280)
+0304.219 (1) Googledrive chunked upload: 53 % uploaded (32505856)
+0306.761 (1) Googledrive chunked upload: 53 % uploaded (32505856)
+0308.568 (1) Googledrive chunked upload: 54.7 % uploaded (33554432)
+0311.086 (1) Googledrive chunked upload: 54.7 % uploaded (33554432)
+0312.230 (1) Googledrive chunked upload: 56.4 % uploaded (34603008)
+0314.431 (1) Googledrive chunked upload: 56.4 % uploaded (34603008)
+0315.550 (1) Googledrive chunked upload: 58.1 % uploaded (35651584)
+0318.098 (1) Googledrive chunked upload: 58.1 % uploaded (35651584)
+0319.563 (1) Googledrive chunked upload: 59.8 % uploaded (36700160)
+0321.531 (1) Googledrive chunked upload: 59.8 % uploaded (36700160)
+0323.054 (1) Googledrive chunked upload: 61.5 % uploaded (37748736)
+0325.126 (1) Googledrive chunked upload: 61.5 % uploaded (37748736)
+0326.216 (1) Googledrive chunked upload: 63.2 % uploaded (38797312)
+0329.490 (1) Googledrive chunked upload: 63.2 % uploaded (38797312)
+0330.282 (1) Googledrive chunked upload: 64.9 % uploaded (39845888)
+0332.950 (1) Googledrive chunked upload: 64.9 % uploaded (39845888)
+0334.585 (1) Googledrive chunked upload: 66.6 % uploaded (40894464)
+0337.369 (1) Googledrive chunked upload: 66.6 % uploaded (40894464)
+0338.652 (1) Googledrive chunked upload: 68.3 % uploaded (41943040)
+0340.273 (1) Googledrive chunked upload: 68.3 % uploaded (41943040)
+0342.144 (1) Googledrive chunked upload: 70 % uploaded (42991616)
+0343.310 (1) Googledrive chunked upload: 70 % uploaded (42991616)
+0345.596 (1) Googledrive chunked upload: 71.7 % uploaded (44040192)
+0346.229 (1) Googledrive chunked upload: 71.7 % uploaded (44040192)
+0349.171 (1) Googledrive chunked upload: 73.5 % uploaded (45088768)
+0349.861 (1) Googledrive chunked upload: 73.5 % uploaded (45088768)
+0352.083 (1) Googledrive chunked upload: 75.2 % uploaded (46137344)
+0353.357 (1) Googledrive chunked upload: 75.2 % uploaded (46137344)
+0355.081 (1) Googledrive chunked upload: 76.9 % uploaded (47185920)
+0356.797 (1) Googledrive chunked upload: 76.9 % uploaded (47185920)
+0357.775 (1) Googledrive chunked upload: 78.6 % uploaded (48234496)
+0360.313 (1) Googledrive chunked upload: 80.3 % uploaded (49283072)
+0361.156 (1) Googledrive chunked upload: 78.6 % uploaded (48234496)
+0363.602 (1) Googledrive chunked upload: 82 % uploaded (50331648)
+0364.140 (1) Googledrive chunked upload: 80.3 % uploaded (49283072)
+0366.961 (1) Googledrive chunked upload: 83.7 % uploaded (51380224)
+0367.013 (1) Googledrive chunked upload: 82 % uploaded (50331648)
+0369.947 (1) Googledrive chunked upload: 85.4 % uploaded (52428800)
+0370.263 (1) Googledrive chunked upload: 83.7 % uploaded (51380224)
+0372.561 (1) Googledrive chunked upload: 87.1 % uploaded (53477376)
+0373.437 (1) Googledrive chunked upload: 85.4 % uploaded (52428800)
+0376.579 (1) Googledrive chunked upload: 88.8 % uploaded (54525952)
+0377.226 (1) Googledrive chunked upload: 87.1 % uploaded (53477376)
+0380.796 (1) Googledrive chunked upload: 88.8 % uploaded (54525952)
+0380.797 (1) Googledrive chunked upload: 90.5 % uploaded (55574528)
+0383.895 (1) Googledrive chunked upload: 90.5 % uploaded (55574528)
+0384.702 (1) Googledrive chunked upload: 92.2 % uploaded (56623104)
+0387.125 (1) Googledrive chunked upload: 92.2 % uploaded (56623104)
+0388.089 (1) Googledrive chunked upload: 94 % uploaded (57671680)
+0390.442 (1) Googledrive chunked upload: 94 % uploaded (57671680)
+0391.236 (1) Googledrive chunked upload: 95.7 % uploaded (58720256)
+0396.085 (1) Googledrive chunked upload: 95.7 % uploaded (58720256)
+0397.427 (1) Googledrive chunked upload: 97.4 % uploaded (59768832)
+0401.473 (1) Googledrive chunked upload: 97.4 % uploaded (59768832)
+0401.473 (1) Googledrive chunked upload: 99.1 % uploaded (60817408)
+0406.764 (1) Googledrive chunked upload: 100 % uploaded (60817408)
+0406.771 (1) OK: Archive backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip uploaded to Google Drive in 213.85 seconds
+0406.775 (1) Recording as successfully uploaded: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip (0788587d1731be8ea6e381c84c44afd9)
+0406.787 (1) Deleting local file: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip: OK
+0406.791 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0406.794 (1) Number of backup sets in history: 1; groups (db): 1
+0406.795 (1) Examining (for databases) backup set with group_id=0, nonce=0d81e80c8f6e, datestamp=1505841578 (Sep 19 2017 17:19:38)
+0406.796 (1) This backup set is the backup set just made, so will not be deleted.
+0406.796 (1) Number of backup sets in history: 1; groups (files): 1
+0406.798 (1) Examining (for files) backup set with nonce=0d81e80c8f6e, datestamp=1505841578 (Sep 19 2017 17:19:38)
+0406.798 (1) This backup set is the backup set just made, so will not be deleted.
+0406.799 (1) This backup set is the backup set just made, so will not be deleted.
+0406.799 (1) This backup set is the backup set just made, so will not be deleted.
+0406.800 (1) This backup set is the backup set just made, so will not be deleted.
+0406.800 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0406.801 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0406.806 (1) Resume backup (0d81e80c8f6e, 1): finish run
+0406.809 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0406.814 (1) No email will/can be sent - the user has not configured an email address.
+0406.815 (1) The backup apparently succeeded and is now complete
+0407.516 (1) Googledrive chunked upload: 99.1 % uploaded (60817408)
+0411.092 (1) Googledrive chunked upload: 100 % uploaded (60817408)
+0411.111 (1) OK: Archive backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip uploaded to Google Drive in 216.61 seconds
+0411.114 (1) Recording as successfully uploaded: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip (0788587d1731be8ea6e381c84c44afd9)
+0411.119 (1) Deleting local file: backup_2017-09-19-1719_Young_Team_Realtors_0d81e80c8f6e-themes.zip: OK
+0411.121 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0411.123 (1) Number of backup sets in history: 1; groups (db): 1
+0411.124 (1) Examining (for databases) backup set with group_id=0, nonce=0d81e80c8f6e, datestamp=1505841578 (Sep 19 2017 17:19:38)
+0411.125 (1) This backup set is the backup set just made, so will not be deleted.
+0411.125 (1) Number of backup sets in history: 1; groups (files): 1
+0411.126 (1) Examining (for files) backup set with nonce=0d81e80c8f6e, datestamp=1505841578 (Sep 19 2017 17:19:38)
+0411.126 (1) This backup set is the backup set just made, so will not be deleted.
+0411.127 (1) This backup set is the backup set just made, so will not be deleted.
+0411.127 (1) This backup set is the backup set just made, so will not be deleted.
+0411.127 (1) This backup set is the backup set just made, so will not be deleted.
+0411.127 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0411.128 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0411.131 (1) Resume backup (0d81e80c8f6e, 1): finish run
+0411.134 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0411.138 (1) No email will/can be sent - the user has not configured an email address.
+0411.139 (1) The backup apparently succeeded and is now complete
+0000.000 (1) Opened log file at time: Tue, 19 Sep 2017 17:26:36 +0000 on http://localhost:8888
+0000.001 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.1 PHP: 7.0.20 (apache2handler, Darwin ryans-mbp.gc.kw.com 16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.0.20 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.4M | 8M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.002 (1) Free space on disk containing Updraft's temporary directory: 36089.1 MB
+0000.004 (1) This backup task (0d81e80c8f6e) is either complete or began over 2 days ago: ending (1505841996.78, ) (existing jobdata keys: )
